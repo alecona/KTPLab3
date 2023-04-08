@@ -36,6 +36,6 @@ public class Location
 
     /** Provides a hashCode for each Location. **/
     public int hashCode() {
-        return 423 * (6 + this.xCoord)*(5 + this.yCoord);
+        return 29 * (13 + this.xCoord)*(17 + this.yCoord);
     }
 }

@@ -108,6 +108,6 @@ public class AStarState
      **/
     public boolean isLocationClosed(Location loc)
     {
-        return closeWaypoint.keySet().contains(loc);
+        return closeWaypoint.containsKey(loc);
     }
 }
